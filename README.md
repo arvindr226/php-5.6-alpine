@@ -12,7 +12,6 @@ services:
     ports:
        - "80:80"
        - "443:443"
-       - "2222:22"
     links:
        - db
        - phpmyadmin
