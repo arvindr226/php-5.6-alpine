@@ -1,4 +1,6 @@
 # Docker image for php-5.6-alpine.
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Farvindr226%2Fphp-5.6-alpine.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Farvindr226%2Fphp-5.6-alpine?ref=badge_shield)
+
 
 This Docker image has almost all php5.6 modules including the ffmpeg, imagemagick and gimp.
 
@@ -45,3 +47,7 @@ services:
 
 > $ docker-compose up -d
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Farvindr226%2Fphp-5.6-alpine.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Farvindr226%2Fphp-5.6-alpine?ref=badge_large)
