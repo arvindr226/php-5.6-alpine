@@ -79,7 +79,7 @@ RUN curl -sS https://getcomposer.org/installer | php5 -- --install-dir=/usr/bin 
 RUN  rm -rf /var/cache/apk/*
 
 # AllowOverride ALL
-RUN sed -i '264s#AllowOverride None#AllowOverride All#' /etc/apache2/httpd.conf
+RUN sed -i '265s#AllowOverride None#AllowOverride All#' /etc/apache2/httpd.conf
 #Rewrite Moduble Enable
 RUN sed -i 's#\#LoadModule rewrite_module modules/mod_rewrite.so#LoadModule rewrite_module modules/mod_rewrite.so#' /etc/apache2/httpd.conf
 # Document Root to /var/www/html/
